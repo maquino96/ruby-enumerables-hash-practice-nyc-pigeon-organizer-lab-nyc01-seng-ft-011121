@@ -71,11 +71,11 @@ sorted_data = {
               :lives=>["Central Park"]}, 
               
   "Queenie"=>{  :color=>["white", "brown"], 
-                :gender=>["male", "female"], 
+                :gender=>["female"], 
                 :lives=>["Subway"]}, 
                 
   "Ms. K"=>{  :color=>["grey", "white"], 
-              :gender=>["male", "female"], 
+              :gender=>["female"], 
               :lives=>["Central Park"]}
 }
 

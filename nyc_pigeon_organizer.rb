@@ -16,7 +16,7 @@
     "Library" => ["Peter Jr."],
     "City Hall" => ["Andrew"]
   }
-}
+#}
 
 def nyc_pigeon_organizer(data)
   
@@ -77,5 +77,5 @@ end
   "Ms. K"=>{  :color=>["grey", "white"], 
               :gender=>["female"], 
               :lives=>["Central Park"]}
-}
+#}
 

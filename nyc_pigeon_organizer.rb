@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(data)
   data[:gender][:female].each { |el| pigeon_list.push(el)}
   
   #puts data[:gender][:male]
-  puts pigeon_list
+  #puts pigeon_list
   
   pigeon_list.each do |el|
     result_hash[el] = {
@@ -44,7 +44,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-result_hash
+puts result_hash
 end
 
 nyc_pigeon_organizer(pigeon_data)

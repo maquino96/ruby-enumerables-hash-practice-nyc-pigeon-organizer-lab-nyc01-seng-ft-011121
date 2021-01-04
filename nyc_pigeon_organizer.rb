@@ -26,6 +26,7 @@ def nyc_pigeon_organizer(data)
   data[:gender][:female].each { |el| pigeon_list.push(el)}
   puts data[:gender][:male]
   
+  
   pigeon_list.each do |el|
     result_hash[el] = {
     :color => [],

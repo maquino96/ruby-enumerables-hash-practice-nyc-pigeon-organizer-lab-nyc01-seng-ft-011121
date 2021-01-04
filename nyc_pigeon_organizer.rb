@@ -19,7 +19,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  puts pigeon_data[:gender][:male]
+  puts data[:gender][:male]
   result_hash = {}
   pigeon_list = data[:gender][:male].concat(data[:gender][:female])
   

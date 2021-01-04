@@ -47,9 +47,9 @@ def nyc_pigeon_organizer(data)
 result_hash
 end
 
-nyc_pigeon_organizer(pigeon_data)
+#nyc_pigeon_organizer(pigeon_data)
 
-sorted_data = { 
+#sorted_data = { 
   "Alex"=>{ :color=>["white", "brown"], 
             :gender=>["male"], 
             :lives=>["Central Park"]},
